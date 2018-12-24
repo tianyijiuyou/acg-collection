@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: acg-config
+  cloud:
+    config:
+      server:
+        git:
+          uri:
+          search-paths: /**
+          username: tianyijiuyou
+          password: ENC(ybLvCaI3HCpSwQniT0Ex97I3NFpuLmT4)
+      label: master
+eureka:
+  client:
+    service-url: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+jasypt:
+  encryptor:
+    password: 24fbd8f6fd4b45e18be93760b2e51f59
