@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: acg-admin
+server:
+  port: 8090
+  servlet:
+    context-path: /admin

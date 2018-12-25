@@ -12,4 +12,5 @@ eureka:
   client:
     register-with-eureka: false #不将自身注册到eureka
     fetch-registry: false #自身不获取服务列表
-    service-url: http://${eureka.instance.hostname}:${server.port}/eureka/
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
