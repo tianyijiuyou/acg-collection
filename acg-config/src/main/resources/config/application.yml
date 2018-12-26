@@ -5,14 +5,15 @@ spring:
     config:
       server:
         git:
-          uri:
+          uri: https://github.com/tianyijiuyou/acg-collection.git
           search-paths: /config/**
           username: tianyijiuyou
           password: ENC(ybLvCaI3HCpSwQniT0Ex97I3NFpuLmT4)
       label: master
 eureka:
   client:
-    service-url: http://localhost:8761/eureka/
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
   instance:
     prefer-ip-address: true
 jasypt:
