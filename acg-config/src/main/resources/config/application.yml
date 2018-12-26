@@ -5,11 +5,11 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/tianyijiuyou/acg-collection.git
-          search-paths: /config/**
+          uri: https://gitee.com/tianyijiuyou/acg-collection.git
+          force-pull: true
           username: tianyijiuyou
-          password: ENC(ybLvCaI3HCpSwQniT0Ex97I3NFpuLmT4)
-      label: master
+          password: DvHiEJP5bnABtpw
+          search-paths: /config
 eureka:
   client:
     service-url:
